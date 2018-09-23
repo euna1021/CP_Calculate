@@ -40,18 +40,16 @@ public class Calculate {
 	}
 
 	public static int mul(int x, int y) {
-
-		return x * y;
+		return x*y;
 	}
 
 	public static double div(int x, int y) {
 		// 실수로 반환이 되도록 구현
-
-		if(y == 0) {
+		if(y==0) {
+			return 0;
+		}else {
 			return (double)x/y;
 		}
-		else {
-			return 0;
-		}
+
 	}
 }
